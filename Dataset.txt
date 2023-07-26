@@ -1,0 +1,2174 @@
+//1. Declare and initialize a variable with value 5.
+Step 1: Declare a variable named "num".
+Step 2: Assign the value of 5 to the variable.
+```
+num =5
+```
+//2. Declare and initialize a variable with string value "hello World".
+Step 1: Declare a variable named "num".
+Step 2: Assign the value of "hello World" to the variable.
+```
+num ="hello World"
+```
+//3. Convert string to integer
+Step 1: Declare a variable with a string value.
+Step 2: Convert the string to an integer using the int() function.
+```
+my_string = "123"
+my_integer = int(my_string)
+```
+//4. Declare variable and take user input
+Step 1: Declare a variable.
+Step 2: Take input from user.
+```
+num = input("Enter a value: ")
+```
+//5. Declare variable and take integer user input
+```
+num = int(input("Enter a number: "))
+```
+//6. declare a variable and take string user input
+Step 1: Declare a variable.
+Step 2: Take string input from user.
+```
+name = input("Please enter your name: ")
+```
+//7. Declare variable and take float value input from user
+Step 1: Declare a variable.
+Step 2: Take input from the user.
+```
+my_float = 0.0
+my_float = float(input("Enter a floating point number: "))
+```
+//8. two variable-user input value 
+Step 1: Declare two variables "num1" and "num2".
+Step 2: Take user input.
+```
+num1 = input("Enter the value for variable 1: ")
+num2 = input("Enter the value for variable 2: ")
+```
+//9. Add two numbers
+step 1: store one number in variable a.
+Step 2: Store another number in variable b.
+Step 3: Add a and b. 
+Step 4: Store the result of step 3 in variable sum.
+Step 5: print sum.
+```
+a = 5
+b = 3
+sum = a + b
+print("The sum of", a, "and", b, "is", sum)
+````
+//10. Difference between Two numbers
+Step 1: Take two values from user and store them in variables a and b.
+Step 2: subtract b from a.
+Step 3: Store the result of step 2 in variable diff.
+Step 4: Print diff.
+```
+a = float(input("Enter the first number: "))
+b = float(input("Enter the second number: "))
+difference = b - a
+print("The difference between", a, "and", b, "is", difference)
+```
+//11. Product of two numbers
+Step 1: Store two values from the user in variables a and b.
+Step 2: Multiply a and b.
+Step 3: Store the result of step 2 in variable product.
+Step 4: Print product.
+```
+a = float(input("Enter the first number: "))
+b = float(input("Enter the second number: "))
+product = a*b
+print("Product of ",a "and",b "is", product)
+```
+//12. Division of two numbers
+Step 1: Store two values from the user in variables a and b.
+Step 2: Divide a and b using operator '/'.
+Step 3: Store the result of step 2 in variable "result".
+Step 4: Print "result".
+```
+a = float(input("Enter the first number: "))
+b = float(input("Enter the second number: "))
+result = b/a
+print("Result of ",b "divided by",a "is", result)
+```
+//13. Find the remainder when division is performed.
+Step 1: Store two values from the user in variables a and b.
+Step 2: Divide a and b using the operator '%'.
+Step 3: Store the result of step 2 in the variable "remainder".
+Step 4: Print "remainder".
+```
+a = float(input("Enter the first number: "))
+b = float(input("Enter the second number: "))
+result = b%a
+print("Remainder when",b "is divided by",a "=", remainder)
+```
+//14. Calculate result of 2^5.
+Step 1: Store two values from the user in variables a and b.
+Step 2: Use operator '**' between 'a' and 'b'.
+Step 3: Store the result of step 2 in the variable "result".
+Step 4: Print "result".
+```
+a = float(input("Enter the first number: "))
+b = float(input("Enter the second number: "))
+result = a**b
+print("Result =", result)
+```
+//15. Declare variable and increment it's value by 4.
+Step 1: Declare a variable with initial value.
+Step 2: Increment the value of the variable using operator "+=".
+```
+count = 0 
+count+=4
+```
+//16. Declare variable and decrement it's value by 1.
+Step 1: Declare a variable with initial value.
+Step 2: Increment the value of the variable using operator "-=".
+```
+count = 0 
+count-=1
+```
+//17. Create list
+Step 1: Declare a new variable and assign it to an empty list and print it. 
+Step 2: To add elements to the list, use the append() method. 
+Step 3: Repeat the append() method for each additional element you want to add to the list. 
+```
+my_list = []
+my_list.append(1)
+my_list.append("apple")
+my_list.append(3.14)
+my_list.append(True)
+print(my_list)
+```
+//18. check even or odd numbers.
+Step 1: Declare a variable num.
+Step 2: Take user input and store it in num.
+Step 3: Divide num by 2 and check it's remainder.
+Step 4: if remainder is equal to 0 num is even else odd.
+```
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print(num, "is even")
+else:
+    print(num, "is odd")
+```
+//19. check if a number is divisible by 5
+Step 1: Declare two variables n and rem.
+Step 2: Take user input and store it in n.
+Step 3: Divide the value stored in n with 5 and store the remainder in variable rem.
+Step 4: if rem is equal to 0 then print "Number is divisible by 5" else print "Number is not divisible by 5".
+```
+n = int(input("Enter a number: "))
+rem = n % 5
+if rem == 0:
+    print(n, "is divisible by 5")
+else:
+    print(n, "is not divisible by 5")
+```
+//20. check if a number is divisible by 10
+Step 1: Declare two variables n and rem.
+Step 2: Take user input and store it in n.
+Step 3: Divide the value stored in n with 10 and store the remainder in variable rem.
+Step 4: if rem is equal to 0 then print "is divisible by 10" else print "is not divisible by 10".
+```
+n = int(input("Enter a number: "))
+rem = n % 10
+if rem == 0:
+    print(n, "is divisible by 10")
+else:
+    print(n, "is not divisible by 10")
+```
+//21. check if a number is positive or negative.
+Step 1: Take a user input and store in variable num.
+Step 2: Check if number is greater less then 0 print "negative number" else "positive number".
+```
+num = float(input("Enter a number: "))
+if num > 0:
+    print("The number is positive.")
+elif:
+    print("The number is negative.")
+```
+//22. smallest among three
+Step 1: Start by assigning the first number to a variable "smallest".
+Step 2: Compare "smallest" to the second number. If the second number is smaller than "smallest", assign the second number to "smallest".
+Step 3: Compare "smallest" to the third number. If the third number is smaller than "smallest", assign the third number to "smallest".
+Step 4: After comparing all three numbers, the variable "smallest" will contain the smallest among the three numbers.
+```
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+num3 = int(input("Enter third number: "))
+smallest = num1
+if num2 < smallest:
+    smallest = num2
+if num3 < smallest:
+    smallest = num3
+print("The smallest number among the three is:", smallest)
+```
+//23. check if a number is greater than 50 but less than 100
+Step 1: Take a user input and store in variable num.
+Step 2: Check if number is greater less then 100 and greater then 50 print "The number is greater than 50 but less than 100." else "The number is not between 50 and 100.".
+```
+num = int(input("Enter a number: "))
+if num > 50 and num < 100:
+    print("The number is greater than 50 but less than 100.")
+else:
+    print("The number is not between 50 and 100.")
+```
+//24. print powers of 2, for the given number of terms
+Step 1: Take input from the user for the number of terms 'n'.
+Step 2: Initialize a variable "power" to 1.
+Step 3: Use for loop that iterates n times. First input power than multiply power by 2;
+```
+n = input("Enter the number of terms: ")
+power = 1
+for i in range(n):
+    print(power)
+    power = power * 2
+print("Power = ",power)
+//25. Find the area of a sqaure
+Step 1: Take input from the user for the length of a side of the square.
+Step 2: Calculate the area of the square by multiplying the length of a side by itself and store in variable area.
+Step 3: Value stored in area.
+```
+side_length = input("Enter the length of a side of the square: ")
+area = side_length * side_length
+print("Area of square",area)
+```
+//26.Find the perimeter of a square
+Step 1: Take input from the user for the length of one side of the square.
+Step 3: Multiply the length of one side by 4 and store in variable "perimeter".
+Step 3: Print value stored in variable "perimeter".
+```
+length = input("Enter the length of one side of the square: ")
+perimeter = length * 4
+print("Print perimeter of square =",perimeter)
+```
+//27.Find the perimeter of a rectangle
+Step 1: Take input from the user for the length and width of the rectangle.
+Step 2: Calculate the perimeter of the rectangle using the formula perimeter = 2 * (length + width).
+Step 3: Print value stored in variable "perimeter".
+```
+length = input("Enter the length of the rectangle: ")
+width = input("Enter the width of the rectangle: ")
+perimeter = 2 * (length + width)
+print
+//28. Find the area of a rectangle
+Step 1: Take input from the user for the length and width of the rectangle.
+Step 2: Multiply the length and width together and store in variable "area".
+Step 3: Print value stored in variable "area".
+```
+length = input("Enter the length of the rectangle: ")
+width = input("Enter the width of the rectangle: ")
+area = length * width
+print("Area of rectangle = ", area)
+```
+//29. Find the area of a circle, whose radius is given
+Step 1: Take input from the user for the radius of the circle.
+Step 2: Calculate the area of the circle using the formula: area = 3.14 * radius^2.
+Step 3: print value stored in variable "area".
+```
+radius = input("Enter the radius of the circle: ")
+pi = 3.14
+area = pi * radius**2
+print("Area of circle", area)
+```
+//30. calculate and print the volume of a cylender
+Step 1: Take input from the user for the radius and height of the cylinder.
+Step 2: Calculate the area of the base of the cylinder using the formula 3.14 * radius^2.
+step 3: Calculate the volume of the cylinder using the formula area of base * height and store in variable "volume".
+Step 4: Print out the calculated volume of the cylinder.
+```
+radius = input("Enter the radius of the cylinder: ")
+height = input("Enter the height of the cylinder: ")
+pi = 3.14
+area = pi * radius**2
+volume = area * height
+print("The volume of the cylinder is:", volume)
+```
+//31. Print absolute value
+Step 1: Take input from the user for a number.
+Step 2: Check if the number is positive or negative. If the number is positive, print the number as it is and if the number is negative, multiply it by -1 to make it positive, then print the result.
+```
+num = input("Enter a number: ")
+if num >= 0:
+    print(num)
+else:
+    abs_val = num * -1
+    print(abs_val)
+```
+//32. calculate simple interest, given p, r, t
+Step 1: Take input from the user for the principal (p), rate of interest (r), and time period (t).
+Step 2: Calculate the simple interest using the formula SI = (p * r * t) / 100.
+Step 3: Print out the calculated simple interest.
+```
+p = float(input("Enter the principal amount: "))
+r = float(input("Enter the rate of interest: "))
+t = float(input("Enter the time in years: "))
+si = (p * r * t) / 100
+print("Simple interest is:", si)
+```
+//33. Print numbers from 1 to 100
+Step 1: Initialize a variable and start with value 1.
+Step 2: Initialize another variable end with the value 100.
+Step 3: Use a for loop from start to end and print the value of the start.
+```
+start = 1
+end = 100
+for i in range(start, end+1):
+    print(i)
+```
+//34. print n even numbers
+Step 1: declare a variable num.
+Step 2: Store user input in it.
+Step 3: Iterate from 1 to n and print the numbers divisible by 2.
+```
+num = int(input("Enter the value of num: "))
+for i in range(1, n+1):
+    print(2*i, end=" ")
+```
+//35. check if a triangle is equilateral or not 
+Step 1: Declare three variables side1, side2, and side3.
+Step 2: Take 3 inputs from the user and store them in side1, side2, and side3.
+Step 3: Check if the values on side1, side2, and side3 are the same or not.
+Step 4: If values are the same then print "Equilateral Triangle" else print "Not Equilateral Triangle".
+```
+side1 = float(input("Enter the length of side a: "))
+side2 = float(input("Enter the length of side b: "))
+side3 = float(input("Enter the length of side c: "))
+if side1 == side2 == side3:
+    print("Equilateral Triangle")
+else:
+    print("Not Equilateral Triangle")
+```
+//36. print table of a number
+Step 1: Declare a variable num.
+Step 2: Take user input and store it in variable num.
+Step 3: Use for loop from 1 to 10 and print product of num and iterative number.
+```
+num = int(input("Enter a number: "))
+print("Multiplication table of", num)
+for i in range(1, 11):
+    print(num, "x", i, "=", num*i)
+```
+//37. print n odd numbers
+Step 1: declare a variable num.
+Step 2: Store user input in it.
+Step 3: Iterate from 1 to n and find the remainder of each number.
+Step 4: If the remainder is 1 print that number.
+```
+n = int(input("Enter the value of n: ")) 
+for i in range(1, 2*n, 2):  
+    print(i)
+``` 
+//38. Sum of n natural numbers
+Step 1: Take input from the user for the value of n.
+Step 2: Initialize a variable "sum" to 0.
+Step 3: Use a loop to iterate from 1 to n and add the current value of the loop variable to "sum".
+Step 4: Print sum.
+```
+n = int(input("Enter the value of n: "))
+sum = 0
+for i in range(1, n+1):
+    sum = sum + i
+print("The sum of the first", n, "natural numbers is", sum)
+```
+//39. sum of digits of a given number 
+Step 1: Take input from the user for a number.
+Step 2: Initialize a variable sum to 0.
+Step 3: Use a loop to iterate through the digits of the number:
+Step 4: Extract the rightmost digit of the number using the modulo operator %.
+Step 5: Add the extracted digit to the sum.
+Step 6: Remove the rightmost digit from the number using integer division //.
+Step 7: Repeat steps 4-6 until all digits have been extracted.
+Step 8: The variable sum now contains the sum of the digits of the original number
+```
+num = int(input("Enter a number: "))
+sum = 0
+while num > 0:
+    digit = num % 10
+    sum += digit
+    num //= 10
+print("The sum of the digits of the given number is:", sum)
+```
+//40. Find the Square Root
+Step 1: Take input from the user for a number.
+Step 2: Calculate the square root of the number using a square root function.
+Step 3: Print the square root of the number.
+```
+num = input("Enter a number: ")
+sqrt_num = square_root(num)
+print("The square root of", num, "is", sqrt_num)
+```
+//41. sum of squares of first n natural numbers
+Step 1: Take input from the user for the value of n.
+Step 2: Initialize a variable "sum" to 0.
+Step 3: Use a loop to iterate from 1 to n, compute the square of the current value of the loop variable, and add the squared value to "sum".
+Step 4: After the loop is complete, the variable "sum" will contain the sum of the squares of the first n natural numbers.
+```
+n = input("Enter the value of n: ")
+sum = 0
+for i in range(1, n+1):
+    sum = sum + i*i
+print("Sum of squared values= ",sum)
+```
+//42. check if two strings are equal or not
+Step 1: Declare two variables str1 and str2.
+Step 2: Store two user inputs in str1 and str2.
+Step 3: Check if str1 is equal to str2.
+Step 4: If they are equal, print " Equal Strings". Else print "Strings are not equal".
+```
+string1 = input("Enter the first string: ")
+string2 = input("Enter the second string: ")
+if string1 == string2:
+    print("Equal Strings")
+else:
+    print("Strings are not equal")
+```
+//43. check if a string contains a vowel
+Step 1: Take user input string.
+Step 2: Iterate from 0 to the length of the string and check if any character in the string is 'a', 'e', 'i', 'o', or 'u'.
+Step 3: If yes then print " Vowels are present" else print " Vowels are not present".
+```
+string = input("Enter a string: ")
+vowels = "aeiouAEIOU"
+has_vowels = any(char in vowels for char in string)
+if has_vowels:
+    print("Vowels are present")
+else:
+    print("Vowels are not present")
+```
+//44. Get the characters from position 2 to position 5 in string.
+Step 1: Take a string of size greater than or equal to 5 in str.
+Step 2: Use str[starting_index,last_index].
+```
+starting_index=2
+last_index=5
+str = "Hello, World!"
+print(str[starting_index:last_index])
+```
+//45. Change string from lower case to upper case
+Step 1: Declare a string 'str' and take user input.
+Step 2: Use str.upper().
+Step 3:Print result obtained in step 2.
+```
+str=input("Enter String")
+print(str.upper())
+```
+//46. Change string from upper case to lower case
+Step 1: Declare a string 'str' and take user input.
+Step 2: Use str.lower().
+Step 3:Print result obtained in step 2.
+```
+str=input("Enter String")
+print(str.lower())
+```
+//47. Split a string and print result
+Step 1: Declare a string 'str' and take user input.
+Step 2: Use str.split() and store result in a list.
+```
+str=input("Enter String")
+words=str.split()
+print(words)
+```
+// 48. Concatenate two strings
+Step 1: Declare two user input string 'str1' and 'str2'.
+Step 2: Declare another string 'result'.
+Step 3: Store result of str1+str2 in result.
+```
+str1=input("enter String1")
+str2=input("enter String2")
+result=str1+str2
+print(result)
+```
+//49. reverse loop from 100 to 1
+Step 1: Initialize a variable and start with value 100.
+Step 2: Initialize another variable end with the value 1.
+Step 3: Use a for loop from start to end and print the value of the start.
+```
+start = 100
+end = 0
+for i in range(start, end,-1):
+    print(i)
+```
+//50. print all elements between 40 and 60
+Step 1: Initialize a variable and start with value 40.
+Step 2: Initialize another variable end with the value 60.
+Step 3: Use a for loop from start to end and print the value of the start.
+```
+start = 40
+end = 60
+for i in range(start, end,1):
+    print(i)
+```
+//51. Add three numbers
+Step 1: store one number in variable num1.
+Step 2: Store another number in variable num2.
+Step 3: Stores 3rd number in variable num3.
+Step 4: Add num1,num2,num3. 
+Step 5: Store the result of step 4 in variable sum.
+Step 6: print sum.
+```
+num1 = int(input("Enter 1st number"))
+num2 = int(input("Enter 2nd number"))
+num3 = int(input("Enter 3rd number"))
+sum = num1 + num2 + num3
+print("The sum of", num1,", ",num2, "and", num3, "is", sum)
+```
+//52. Multiply three numbers
+step 1: store one number in variable num1.
+Step 2: Store another number in variable num2.
+Step 3: Stores 3rd number in variable num3.
+Step 4: multiply num1,num2,num3. 
+Step 5: Store the result of step 4 in variable "product".
+Step 6: print product.
+```
+num1 = int(input("Enter 1st number"))
+num2 = int(input("Enter 2nd number"))
+num3 = int(input("Enter 3rd number"))
+product = num1* num2 *num3
+print("The Product of", num1,", ",num2, "and", num3, "is", product)
+```
+//53. Find square of any number
+Step 1: Declare variable and store some value in it.
+Step 2: Multiply it by itself and store in another variable result.
+Step 3: Print result.
+```
+num =int(input("Enter value"))
+result= num*num
+print(result)
+```
+//54. Find 5 times of any number
+Step 1: Declare variable and store some value in it.
+Step 2: Multiply it by 5 and store in another variable result.
+Step 3: Print result.
+```
+num =int(input("Enter value"))
+result= num*5
+print(result)
+```
+//55. Remainder when a number is divided by 3.
+Step 1: Declare variable "num" and store some value in it.
+Step 2: Divide num by 3 and storeremainder in variable "rem".
+Step 3: Print rem.
+```
+num =int(input("Enter value"))
+rem=num/3
+print(rem)
+```
+//56. check if 3 numbers are equal or not
+Step 1: Declare three variables "num1", "num2", and "num3".
+Step 2: Take 3 inputs from the user and store them in "num1", "num2", and "num3".
+Step 3: Check if the values on num1, num2, and num3 are the equal or not.
+Step 4: If values are the equal then print "Equal" else print "Not Equal".
+```
+num1 = float(input("Enter 1st number"))
+num2 = float(input("Enter 2nd number"))
+num3 = float(input("Enter 3rd number"))
+if num1 == num2 == num3:
+    print("Equal")
+else:
+    print("Not Equal")
+```
+//57. Print even numbers present between 50 and 80.
+Step 1: Initialize a variable and start with value 50.
+Step 2: Initialize another variable end with the value 81.
+Step 3: Use a for loop from start to end and if current value gives remainder 0 when divided by 2 print it.
+```
+start = 50
+end = 81
+for i in range(start, end,1):
+    if(i%2==0):
+	  print(i)
+```
+//58. Print odd numbers present between 50 and 80.
+Step 1: Initialize a variable and start with value 50.
+Step 2: Initialize another variable end with the value 81.
+Step 3: Use a for loop from start to end and if current value gives remainder 1 when divided by 2 print it.
+```
+start = 50
+end = 81
+for i in range(start, end,1):
+    if(i%2!=0):
+	  print(i)
+```
+//59. print length of a given list "my_list".
+Step 1: Use function len(my_list) and store value in variable "length".
+```
+length= len(my_list)
+```
+// 60. print given list "my_list".
+Step 1: Use print function like print(my_list).
+```
+print(my_list)
+```
+//61. Accessing 5th element of given list "my_list".
+Step 1: Find length of list "my_list".
+Step 2: if length is less than or equal to 5 print "Insufficient size" else print my_list[4].
+```
+length = len(my_list)
+if(5<=length):
+	print("Insufficient size")
+else:
+	print(my_list[4])
+```
+//62. Accessing last element of given list "my_list".
+Step 1: print my_list[-1]
+```
+print(my_list[-1])
+```
+// 63. Change 2nd element of given list "my_list".
+Step 1: Create "newValue" variable.
+Step 1: Find length of list "my_list".
+Step 2: if length is less than or equal to 5 print "Insufficient size" else my_list[2]=newValue.
+```
+newValue= input("Enter new Value")
+length=len(my_list)
+if(length<=2):
+	print("Insufficient size")
+else:
+	my_list[2]=newValue
+```
+// 64. Insert item in list.
+Step 1: Determine the index where you want to insert the item.
+Step 2: Shift all the elements to the right of that index one position to the right.
+Step 3: Insert the new item into the desired index.
+```
+def insert_item(mylist, index, item):
+    mylist.append(None)  
+    for i in range(len(mylist)-1, index, -1):
+        mylist[i] = mylist[i-1]  
+    mylist[index] = item  
+```
+//65. append item in given list 
+Step 1. Start.
+Step 2. Print the initial list.
+Step 3. Ask the user to enter an item to append to the list.
+Step 4. Append the item to the list using the append() method.
+Step 5. Print the updated list.
+Step 6. End.
+```
+print(my_list)
+newValue=input("Enter value to be appended")
+my_list.append(newValue)
+print(my_list)
+```
+//66. Iterate elements of list using while loop.
+Step 1: Use while to iterate over list from range 0 to length of given list "thislist".
+```
+i = 0
+while i < len(thislist):
+  print(thislist[i])
+  i = i + 1
+```
+//67. Swap the first and last elements in a list
+Step 1:Take input from the user for a list.
+Step 2: If the list has only one element, then there is no need to swap, print "Not enough elements" else proceed to step 3.
+step 3: Store the first element of the list in a temporary variable "temp".
+Step 4: Assign the value of the last element of the list to the first element of the list.
+Step 5: Assign the value of the temporary variable "temp" to the last element of the list.
+```
+my_list = input("Enter a list: ").split()
+if len(my_list) == 1:
+    print("Not enough elements")
+else:
+    temp=my_list[0]
+    my_list[0]=my_list[-1]
+    my_list[-1]=temp
+    print("The list with the first and last elements swapped is:", my_list)
+```
+//68. Calculate height of triangle when it's area and base length is given.
+Step 1: Input the area and base length of the triangle.
+Step 2: Use this formula to solve for the height: height = (2 * area) / base.
+Step 3: Output the value of height.
+```
+area = float(input("Enter the area of the triangle: "))
+base = float(input("Enter the base length of the triangle: "))
+height = (2 * area) / base
+print("The height of the triangle is:", height)
+```
+//69. Calculate the perimeter of a triangle.
+Step 1: Input the lengths of the three sides of the triangle.
+Step 2: Add up the lengths of the three sides.
+Step 3: Store the result in a variable.
+Step 4: Print out the result as the perimeter of the triangle.
+```
+side1 = float(input("Enter the length of side 1: "))
+side2 = float(input("Enter the length of side 2: "))
+side3 = float(input("Enter the length of side 3: "))
+perimeter = side1 + side2 + side3
+print("The perimeter of the triangle is:", perimeter)
+```
+//70. Calculate the perimeter of a hexagon.
+Step 1: Input the lengths of the six sides of the hexagon.
+Step 2: Add up the lengths of the six sides.
+Step 3: Store the result in a variable.
+Step 4: Print out the result as the perimeter of the hexagon.
+```
+side1 = float(input("Enter the length of side 1: "))
+side2 = float(input("Enter the length of side 2: "))
+side3 = float(input("Enter the length of side 3: "))
+side4 = float(input("Enter the length of side 4: "))
+side5 = float(input("Enter the length of side 5: "))
+side6 = float(input("Enter the length of side 6: "))
+perimeter = side1 + side2 + side3 + side4 + side5 + side6
+print("The perimeter of the hexagon is:", perimeter)
+```
+//71. Sum of numbers from 1 to 10.
+Step 1: Initialize a variable "sum" to 0.
+Step 2: Use a loop to iterate from 1 to 10 and add the current value of the loop variable to "sum".
+Step 3: print sum.
+```
+sum = 0
+for i in range(1, 11):
+    sum = sum + i
+print("Sum= ", sum)
+```
+//72. Input the three side lengths of the triangle.
+Step 1: Take 3 sides input from user.
+Step 2: Check if all three sides are different in length.
+Step 3: If all three sides are different, then print "scalene triangle" else print "Not a Scalen triangle".
+```
+side_a = float(input("Enter the length of side a: "))
+side_b = float(input("Enter the length of side b: "))
+side_c = float(input("Enter the length of side c: "))
+if side_a != side_b and side_b != side_c and side_c != side_a:
+    print("Scalene triangle.")
+else:
+    print("Not a scalene triangle.")
+```
+//73. All three numbers are different.
+Step 1: Store three inputs from the user in num1,num2, and num3.
+Step 2: Check if all three numbers are different.
+Step 3: If all three sides are different, then print "Different" else, print "Not Different".
+```
+num1 = float(input("Enter the 1st num: "))
+num2 = float(input("Enter the 2nd num "))
+num3 = float(input("Enter the 3rd num "))
+if num1 != num2 and num2 != num3 and num3 != num1:
+    print("Different")
+else:
+    print("Not Different")
+```
+//74. Maximum from 5
+Step 1: Input the 5 numbers and store in 5 variables, num1,num2, num3, num4, num5.
+Step 2: Initialize a variable max_num to be the first number.
+Step 3: Compare each of the remaining 4 numbers to max_num. If a number is greater than max_num, set max_num to that number.
+Step 4: Once all 4 numbers have been compared to max_num, the final value of max_num will be the maximum value from the list.
+Step 5: Output the value of max_num
+```
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+num3 = float(input("Enter the third number: "))
+num4 = float(input("Enter the fourth number: "))
+num5 = float(input("Enter the fifth number: "))
+max_num = num1
+if num2 > max_num:
+    max_num = num2
+if num3 > max_num:
+    max_num = num3
+if num4 > max_num:
+    max_num = num4
+if num5 > max_num:
+    max_num = num5
+print("The maximum value is:", max_num)
+
+```
+//75. Minimum from 5
+Step 1: Input the five numbers.
+Step 2: Set the minimum value to the first number.
+Step 3: Compare the minimum value with the second number. If the second number is less than the minimum value, then update the minimum value to the second number.
+Step 4: Repeat step 3 for the remaining three numbers.
+Step 5: Output the minimum value.
+```
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+num3 = float(input("Enter the third number: "))
+num4 = float(input("Enter the fourth number: "))
+num5 = float(input("Enter the fifth number: "))
+minimum = num1
+if num2 < minimum:
+    minimum = num2
+if num3 < minimum:
+    minimum = num3
+if num4 < minimum:
+    minimum = num4
+if num5 < minimum:
+    minimum = num5
+print("The minimum value is:", minimum)
+```
+//76. Reverse a string.
+Step 1: Input the string to be reversed.
+Step 2: Initialize an empty string to store the reversed string.
+Step 3: Iterate through the input string in reverse order, appending each character to the empty string.
+Step 4: Output the reversed string.
+```
+string = input("Enter a string: ")
+reversed_string = ""
+for i in range(len(string) - 1, -1, -1):
+    reversed_string += string[i]
+print("The reversed string is:", reversed_string)
+```
+//77. Sum of elements present in list
+Step 1: Input the list of numbers.
+Step 2: Initialize a variable to store the sum of the numbers.
+Step 3: Loop through each number in the list.
+Step 4: Add each number to the sum variable.
+Step 5: After the loop has finished, output the sum of the numbers.
+```
+num_list = [1, 2, 3, 4, 5]
+sum = 0
+for num in num_list:
+    # Add each number to the sum variable
+    sum += num
+print("The sum of the numbers is:", sum)
+```
+//78. largest in list.
+Step 1: Input the list of numbers.
+Step 2: Set a variable called largest to the first element in the list.
+Step 3: Iterate through the list and compare each element to the current value of largest.
+Step 4: If an element is larger than largest, update the value of largest to the new element.
+Step 5: Output the value of largest.
+```
+my_list = [5, 2, 8, 1, 9, 3, 6]
+largest = my_list[0]
+for num in my_list:
+    if num > largest:
+        largest = num
+print("The largest element in the list is:", largest)
+```
+//79. smallest in list.
+Step 1: Input the list of elements.
+Step 2: Initialize a variable smallest with the value of the first element in the list.
+Step 3: Iterate through the remaining elements in the list.
+Step 4: For each element, compare it to the current value of smallest.
+Step 5: If the element is smaller than smallest, update the value of smallest.
+Step 6: Output the value of smallest.
+```
+elements = [5, 3, 8, 2, 9, 1]
+smallest = elements[0]
+for i in range(1, len(elements)):
+    if elements[i] < smallest:
+        # If the element is smaller, update the value of smallest
+        smallest = elements[i]
+print("The smallest element in the list is:", smallest)
+```
+//80. Circumference of circle
+Step 1: Take input from the user for the circle's radius.
+Step 2: Calculate the circle's circumference using the formula: circumference = 2* 3.14 * radius.
+Step 3: print value stored in variable "circumference".
+```
+radius = input("Enter the radius of the circle: ")
+pi = 3.14
+area = 2* pi * radius
+print("Circumference of circle", circumference)
+```
+//81. Number of vowels in a string.
+Step 1: Input the string.
+Step 2: Initialize a counter variable to 0 to keep track of the number of vowels.
+Step 3: Loop through each character in the string. For each character, check if it is a vowel (i.e., 'a', 'e', 'i', 'o', or 'u').
+Step 4: If the character is a vowel, increment the counter by 1.
+After looping through all characters in the string, output the counter's value.
+```
+string = input("Enter a string: ")
+count = 0
+for char in string:
+    if char in 'aeiouAEIOU':
+        count += 1
+print("The number of vowels in the string is:", count)
+```
+//82. count the number of occurrences of a character in a string.
+Step 1: Input the string and the character to search for.
+Step 2: Initialize a counter variable to zero.
+Step 3: Loop through each character in the string. If the character is equal to the search character, increment the counter variable.
+Step 4: Output the value of the counter variable.
+```
+string = input("Enter a string: ")
+char = input("Enter a character to search for: ")
+count = 0
+for c in string:
+    if c == char:
+        count += 1
+print("count of character",char, "= ",count)
+```
+//83. lcm of two numbers.
+Step 1: Input the two numbers for which you want to find the LCM.
+Step 2: Determine the greater number of the two.
+Step 3: Set a variable lcm equal to the greater number.
+Step 4: While lcm is not divisible by both of the input numbers, increase lcm by the value of the greater number.
+Step 5: When lcm is divisible by both of the input numbers, output lcm as the LCM of the two numbers.
+```
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+if num1 > num2:
+    greater_num = num1
+else:
+    greater_num = num2
+lcm = greater_num
+while (lcm % num1 != 0) or (lcm % num2 != 0):
+    lcm += greater_num
+print("The LCM of", num1, "and", num2, "is", lcm)
+```
+//84. print list in reverse order
+Step 1: Initialize a list of numbers.
+Step 2: Determine the list length using the len() function.
+Step 3: Subtract 1 from the list length to get the last element's index.
+Step 4: Loop through the list using a for loop with the range() function, starting from the last index and going backward.
+Step 5: Print each element in the loop.
+```
+my_list = [1, 2, 3, 4, 5]
+length = len(my_list)
+last_index = length - 1
+for i in range(last_index, -1, -1):
+    print(my_list[i])
+```
+//85. prints a given value, n number of times
+Step 1: Start
+Step 2: Read the value to be printed and store it in a variable
+Step 3: Read the value of n
+Step 4: Initialize a counter variable i to 1
+Step 5: Repeat the following steps n times:
+      a. Print the value stored in the variable
+      b. Increment the value of the counter variable i by 1
+6. End
+```
+value = input("Enter the value to be printed: ")
+n = int(input("Enter the number of times to print the value: "))
+i = 1
+while i <= n:
+    print(value)
+    i += 1
+```
+//86. replacing all the vowels with '-' in string
+Step 1: Start
+Step 2: Read the input string and store it in a variable
+Step 3: Initialize an empty string variable result
+Step 4: For each character in the input string:
+      a. If the character is a vowel (i.e., 'a', 'e', 'i', 'o', or 'u'):
+            i. Append '-' to the result variable
+      b. Else:
+            i. Append the character to the result variable
+Step 5: Print the result variable
+Step 6: End
+```
+input_str = input("Enter a string: ")
+result = ""
+for char in input_str:
+    if char in "aeiouAEIOU":
+        result += "-"
+    else:
+        result += char
+print(result)
+```
+//87. Area of triangle
+Step 1: Input the height and base length of the triangle.
+Step 2: Use this formula to solve for the height: area = (base* height) / 2.
+Step 3: Output the value of area.
+```
+height = float(input("Enter the height of the triangle: "))
+base = float(input("Enter the base length of the triangle: "))
+height = (base * height) / 2
+print("The area of the triangle is:", area)
+```
+//88. find distance when speed and time are given
+Step 1: Input the speed and time values.
+Step 2: Multiply the speed and time values together.
+Step 3: Assign the multiplication result to a variable called "distance".
+Step 4: Output the distance value.
+```
+speed = float(input("Enter speed in km/h: "))
+time = float(input("Enter time in hours: "))
+distance = speed * time
+print("The distance travelled is", distance, "km")
+```
+//89. Volume of cube.
+Step 1: Input the length of one side of the cube (s).
+Step 2: Calculate the volume of the cube using the formula: V = s^3
+Step 3: Output the result, which is the volume of the cube.
+```
+side_length = float(input("Enter the side length of the cube: "))
+volume = side_length ** 3
+print("The volume of the cube is:", volume)
+```
+//90. Volume of cuboid.
+Step 1:  Read in length, width, and height of cuboid
+Step 2: Calculate volume = length * width * height
+Step 3: print volume
+```
+length = float(input("Enter the length of the cuboid: "))
+width = float(input("Enter the width of the cuboid: "))
+height = float(input("Enter the height of the cuboid: "))
+volume = length * width * height
+print("The volume of the cuboid is:", volume)
+```
+//91. Print the elements of a given list, one element in a line
+Step 1: Take input from the user for a list.
+Step 2: Use a loop to iterate through the list and print it on a separate line for each element of the list.
+```
+my_list = input("Enter a list: ").split()
+for element in my_list:
+    print(element)
+```
+//92. all the even numbers from a list and return the remaining list
+Step 1: Take input from the user for a list.
+Step 2: Create an empty list to store the even numbers.
+Step 3: Use a loop to iterate through the list. For each element of the list, check if it is even or odd. If the element is even, append it to the new list.
+```
+list = input("Enter a list: ")
+even_list = []
+for element in list:
+    if element % 2 == 0:
+        even_list.append(element)
+print("The list with odd numbers removed is:", even_list)
+```
+//93. all the odd numbers from a list and return the remaining list
+Step 1: Take input from the user for a list.
+Step 2: Create an empty list to store the odd numbers.
+Step 3: Use a loop to iterate through the list. For each element of the list, check if it is even or odd. If the element is odd, append it to the new list.
+```
+list = input("Enter a list: ")
+odd_list = []
+for element in list:
+    if element % 2 != 0:
+        odd_list.append(element)
+print("The list with odd numbers removed is:", even_list)
+```
+//94. Calculate the mean of n numbers
+Step 1: Declare an array of 20 random numbers in the range of 10 to 100.
+Step 2: Find the sum of all numbers present in the array.
+Step 3: Divide the sum by 20 and store it in a variable mean.
+Step 4: Print the value stored in mean
+```
+import random
+# Generate 20 random integers between 10 and 100
+arr = [random.randint(10, 100) for _ in range(20)]
+# Calculate the mean of the array
+mean = sum(arr) / len(arr)
+# Print the results
+print("Array:", arr)
+print("Mean:", mean)
+```
+//95. Calculate the median of n numbers.
+Step 1: Declare an array of 20 random numbers in the range of 10 to 100.
+Step 2: Sort this array.
+Step 3: Find the size of the array.
+Step 4: If the size is odd then print the element present at position size/2.
+Step 5: If the size is even then print an average of elements at position size/2 and size/2+1.
+```
+import random
+from statistics import median
+# Generate 20 random integers between 10 and 100
+arr = [random.randint(10, 100) for _ in range(20)]
+# Calculate the median of the array
+med = median(arr)
+# Print the results
+print("Array:", arr)
+print("Median:", med)
+```
+//96. Calculate and return the average of input numbers
+Step 1: Take input from the user for a list of numbers.
+Step 2: Calculate the sum of the numbers using a loop and store it in a variable called sum.
+Step 3: Calculate the length of list using the len() function and store it in a variable called length.
+Step 4: Calculate the average by dividing sum by length.
+Step 5: Print the average.
+```
+numbers = input("Enter a list of numbers: ").split()
+sum = 0
+for number in numbers:
+    sum += float(number)
+length = len(numbers)
+average = sum / length
+print("The average of the numbers is:", average)
+```
+
+//97. Calculate mode from n numbers
+Step 1: Declare an array of 20 random numbers in the range of 10 to 100.
+Step 2: Calculate the frequency of each element.
+Step 3: Declare a variable mode.
+Step 4: Store the element with a maximum frequency in variable mode.
+Step 5: Print value stored in mode.
+```
+import random
+from statistics import mode
+# Generate 20 random integers between 10 and 100
+arr = [random.randint(10, 100) for _ in range(20)]
+# Calculate the mode of the array
+mode_num = mode(arr)
+# Print the results
+print("Array:", arr)
+print("Mode:", mode_num)
+```
+//98. function to add two user provided numbers and return the sum.
+Step 1: Define a function with a descriptive name like add_numbers that takes two parameters, num1 and num2.
+Step 2: Inside the function, add num1 and num2 together and assign the result to a new variable, sum.
+Step 3: Use the return keyword to return the value of sum from the function.
+```
+def add_numbers(num1, num2):
+    sum = num1 + num2
+    return sum
+```
+//99. function to multiply two user provided numbers and return the sum.
+Step 1: Define a function with a descriptive name like multiply_numbers that takes two parameters, num1 and num2.
+Step 2: Inside the function, multiply num1 and num2 together and assign the result to a new variable, product.
+Step 3: Use the return keyword to return the value of product from the function.
+```
+def multiply_numbers(num1, num2):
+    product = num1 * num2
+    return product
+```
+//100. write python function to print from 1 to some point n.
+Step 1: Define a function with a descriptive name like print_numbers that takes one parameter, end.
+Step 2: Inside the function, use a for loop in range 1 to end+1. Print each element.
+```
+def print_numbers(end):
+    for i in range(1, end+1):
+        print(i)
+```
+//101. Declare and initialize a variable with value 10.
+Step 1: Declare a variable named "num".
+Step 2: Assign the value of 10 to the variable.
+```
+num =10
+```
+//102. Declare and initialize a variable with value 15.
+Step 1: Declare a variable named "num".
+Step 2: Assign the value of 5 to the variable.
+```
+num =15
+```
+//103. Declare and initialize a variable with value 215.
+Step 1: Declare a variable named "num".
+Step 2: Assign the value of 215 to the variable.
+```
+num =215
+```
+//104. Declare and initialize a variable with value 150.
+Step 1: Declare a variable named "num".
+Step 2: Assign the value of 150 to the variable.
+```
+num =150
+```
+//105. Swap two numbers.
+Step 1: declaring two variables, let's call them a and b, and assign them the initial values of the numbers you want to swap.
+Step 2: Create a temporary variable, let's call it temp, and assign it the value of a. 
+Step 3: Assign the value of b to a. Now, a holds the value of b.
+Step 4: Assign the value of temp to b. 
+```
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+temp = a
+a = b
+b = temp
+print("After swapping:")
+print("First number:", a)
+print("Second number:", b)
+```
+//106. Check if a number is prime.
+Step 1: import math.
+Step 2: Start with a function called isPrime that takes an integer n as input.
+Step 3: If n is less than 2, return False since prime numbers are greater than or equal to 2.
+Step 4: Iterate through numbers from 2 to the square root of n (inclusive).
+Step 5: For each number i in the range: If n is divisible evenly by i, return False since it is not a prime number. If no divisor is found in the range, return True since n is a prime number.
+```
+import math
+
+def isPrime(n):
+    if n < 2:
+        return False
+
+    for i in range(2, int(math.sqrt(n)) + 1):
+        if n % i == 0:
+            return False
+
+    return True
+```
+//107. Find the factorial of a number
+Step 1: Start by defining a function called factorial that takes an integer parameter n.
+Step 2: Inside the function, check if n is less than 0. If it is, return an error or an appropriate message since factorials are only defined for non-negative integers.
+Step 3: If n is 0, return 1 since the factorial of 0 is defined as 1.
+Step 4: Initialize a variable result to 1. This will store the factorial value as we calculate it.
+Step 5: Use a loop to iterate from 1 to n (inclusive). For each iteration, multiply result by the current loop variable.
+Step 6: After the loop, return the value of result as the factorial of n. 
+```
+function factorial(n)
+    if n < 0
+        return "Factorial is undefined for negative numbers."
+    else if n == 0
+        return 1
+    else
+        result = 1
+        for i from 1 to n
+            result = result * i
+        return result
+```
+//108. Check if a string is a palindrome.
+Step 1: Start by defining a function called is_palindrome that takes an string parameter n.
+Step 2: Initialize two pointers, start and end, to the beginning and end of the string, respectively.
+Step 3: While start is less than end, do steps 3-4:
+Step 4: If the character at index start is not equal to the character at index end, return False as it's not a palindrome.
+Step 5: Increment start by 1 and decrement end by 1.
+Step 6: If the loop completes without returning False, return True as the string is a palindrome.
+```
+def is_palindrome(string):
+    start = 0
+    end = len(string) - 1
+
+    while start < end:
+        if string[start] != string[end]:
+            return False
+        start += 1
+        end -= 1
+
+    return True
+```
+//109. Sort a list of integers in ascending order:
+Step 1: Start with a list of integers.
+Step 2: Get the length of the list and assign it to a variable n.
+Step 3: Repeat the steps 4-6 n-1 times:
+Step 4: Iterate through the list from index 0 to n-i-1:
+Step 5: Compare the element at the current index with the next element.
+Step 6: If the current element is greater than the next element, swap them.
+```
+def bubble_sort(lst):
+    n = len(lst)
+    for i in range(n-1):
+        for j in range(0, n-i-1):
+            if lst[j] > lst[j+1]:
+                lst[j], lst[j+1] = lst[j+1], lst[j]
+```
+//110. Calculate the sum of a list of numbers.
+Step 1: Start by defining a function, let's call it calculate_sum, that takes a list of numbers as input.
+Step 2: Initialize a variable sum to 0 to store the running sum of the numbers.
+Step 3: Iterate over each element in the list using a loop.
+Step 4: For each element, add it to the current value of sum.
+Step 5: After iterating through all the elements in the list, return the final value of sum as the sum of the numbers.
+```
+def calculate_sum(numbers):
+    sum = 0
+    for num in numbers:
+        sum += num
+    return sum
+```
+//111. Reverse a list:
+Step 1: Start by defining a function called reverse_list that takes list as parameter.
+Step 2: Initialize two pointers, start and end, to the first and last indices of the list, respectively.
+Step 3: While start is less than end, repeat steps 3-4:
+Step 4: Swap the elements at indices start and end.
+Step 5: Increment start by 1 and decrement end by 1.
+```
+def reverse_list(lst):
+    start = 0
+    end = len(lst) - 1
+
+    while start < end:
+        lst[start], lst[end] = lst[end], lst[start]
+        start += 1
+        end -= 1
+
+    return lst
+```
+//112. Find the maximum value in a list.
+Step 1: Start by defining a function called find_maximum_value that takes list as parameter.
+Step 2: Initialize a variable max_value with the first element of the list.
+Step 3: Iterate through the remaining elements of the list.
+Step 4: For each element if the element is greater than max_value, update max_value with the current element.
+Step 5: After iterating through all elements, max_value will contain the maximum value in the list.
+Step 6: Return max_value as the result.
+```
+def find_maximum_value(lst):
+    if not lst:
+        return None  
+    max_value = lst[0]  
+    for num in lst[1:]:  
+        if num > max_value:  
+            max_value = num
+
+    return max_value
+```
+//113. Find the minimum value in a list.
+Step 1: Start by defining a function called find_minimum_value that takes list as parameter.
+Step 2: Initialize a variable min_value with the first element of the list.
+Step 3: Iterate through the remaining elements of the list.
+Step 4: For each element if the element is greater than min_value, update min_value with the current element.
+Step 5: After iterating through all elements, min_value will contain the minimum value in the list.
+Step 6: Return min_value as the result.
+```
+def find_minimum_value(lst):
+    if not lst:
+        return None  
+    min_value = lst[0]  
+    for num in lst[1:]:  
+        if num < max_value:  
+            min_value = num
+
+    return max_value
+```
+//114. Find the length of a string.
+Step 1: The function findStringLength takes a string str as input.
+Step 2: Initialize a variable length to store the length of the string and set it to 0.
+Step 3: Iterate through each character in the string using a loop.
+Step 4: For each character encountered, increment the length variable by 1.
+Step 5: Once the loop has iterated through all the characters in the string, return the final value of length as the length of the string.
+```
+def findStringLength(string):
+    length = 0
+    for character in string:
+        length += 1
+    return length
+length = findStringLength(string)
+print("Length of the string:", length)
+```
+//115. Count the occurrences of a character in a string.
+Step 1: Define a function called count_occurrences that takes two parameters: string and character to count.
+Step 2: Initialize a variable called count to 0. This variable will keep track of the number of occurrences of the character.
+Step 3: Iterate over each character c in the string. If c is equal to the character, increment the count by 1.
+Step 4: After the iteration is complete, return the value of count
+```
+def count_occurrences(string, character):
+    count = 0
+    for c in string:
+        if c == character:
+            count += 1
+    return count
+```
+//116. Remove all whitespace from a string.
+Step 1: Start by defining a function, let's call it removeWhitespace, that takes a string as input.
+Step 2: Create an empty string variable, let's call it result, to store the final string without whitespace.
+Step 3: Iterate over each character in the input string:
+Step 4: If the character is not a whitespace character (e.g., space, tab, newline), append it to the result string.
+Step 5: Return the result string.
+```
+def removeWhitespace(input_string):
+    result = ""
+    for char in input_string:
+        if not char.isspace():
+            result += char
+    return result
+```
+//117.Remove a specific character from a string.
+Step 1: Start by defining a function, let's call it remove_char, which takes two parameters: the input string (text) and the character to be removed (char).
+Step 2: Initialize an empty string, let's call it result, to store the modified string.
+Step 3: Iterate through each character, c, in the input string text.
+Step 4: If c is not equal to the character to be removed char, append c to the result string.
+Step 5: After iterating through all characters in the input string, return the result string.
+```
+def remove_char(text, char):
+    result = ""
+    for c in text:
+        if c != char:
+            result += c
+    return result
+```
+//118. Check if a string starts with a specific substring.
+Step 1: Initialize a function named startsWithSubstring that takes two parameters: string and substring.
+Step 2: If the length of substring is greater than the length of string, return false since the substring cannot be longer than the string.
+Step 3: Iterate over each character in substring using a loop.
+Step 4: For each character at index i in substring, check if the character at the same index in string is equal to the character in substring.
+Step 5: If the characters are not equal, return false since the string does not start with the substring.
+Step 6: If all characters in substring match the corresponding characters in string, return true since the string starts with the substring.
+Step 7: If the loop completes without finding any mismatches, return true since the string starts with the substring.
+```
+def startsWithSubstring(string, substring):
+    if len(substring) > len(string):
+        return False
+    for i in range(len(substring)):
+        if string[i] != substring[i]:
+            return False
+    return True
+```
+//119. Check if a string ends with a specific substring.
+Step 1: Start by defining a function, let's call it endsWithSubstring, that takes two parameters: string and substring.
+Step 2: Get the length of the substring using the len() function and store it in a variable, let's call it substring_length.
+Step 3: Get the last substring_length characters from the string using slicing and store it in a variable, let's call it end_of_string.
+end_of_string = string[-substring_length:]
+Step 4: Compare the end_of_string with the substring using the equality operator (==).
+Step 5: If they are equal, return True to indicate that the string ends with the specific substring.
+Step 6: If they are not equal, return False to indicate that the string does not end with the specific substring.
+```
+def endsWithSubstring(string, substring):
+    substring_length = len(substring)
+    end_of_string = string[-substring_length:]
+    return end_of_string == substring
+```
+//120. Convert a string to lowercase.
+Step 1: Start by defining a function, let's call it convert_to_lowercase, that takes string as parameter.
+Step 2: Initialize an empty string to store the lowercase version of the input string.
+Step 3: Iterate over each character in the input string.
+Step 4: For each character, check if it is an uppercase letter. If the character is an uppercase letter, convert it to lowercase by adding 32 to its ASCII value.
+Step 5: Append the lowercase character to the result string.
+Step 6: After iterating through all the characters in the input string, return the lowercase result string.
+```
+def convert_to_lowercase(string):
+    result = ""
+    for char in string:
+        if 'A' <= char <= 'Z':
+            lowercase_char = chr(ord(char) + 32)
+        else:
+            lowercase_char = char
+        result += lowercase_char
+    return result
+```
+//121. Convert a string to uppercase.
+Step 1: Start by defining a function, let's call it convert_to_uppercase, that takes string as parameter.
+Step 2: Initialize an empty string to store the uppercase version of the input string.
+Step 3: Iterate over each character in the input string.
+Step 4: For each character, check if it is a lowercase letter. If the character is a lowercase letter, convert it to uppercase by subtracting 32 to its ASCII value.
+Step 5: Append the uppercase character to the result string.
+Step 6: After iterating through all the characters in the input string, return the uppercase result string.
+```
+def convert_to_uppercase(string):
+    result = ""
+    for char in string:
+        if 'a' <= char <= 'z':
+            upperrcase_char = chr(ord(char) - 32)
+        else:
+            uppercase_char = char
+        result += uppercase_char
+    return result
+```
+//122. Capitalize the first letter of a string.
+Step 1: Define a function called capitalizeFirstLetter that takes a string as input.
+Step 2: Check if the string is empty. If it is, return an empty string.
+Step 3: Retrieve the first character of the string using indexing and assign it to a variable called first_letter.
+Step 4: Capitalize first_letter using the upper() method.
+Step 5: Retrieve the remaining characters of the string using slicing and assign them to a variable called rest_of_string.
+Step 6: Concatenate first_letter with rest_of_string.
+Step 7: Return the capitalized string.
+```
+def capitalizeFirstLetter(string):
+    if len(string) == 0:
+        return ""
+
+    first_letter = string[0].upper()
+    rest_of_string = string[1:]
+
+    capitalized_string = first_letter + rest_of_string
+    return capitalized_string
+```
+//123. Split a string into a list of substrings.
+Step 1: Initialize an empty list called 'result' to store the substrings.
+Step 2: Initialize an empty string called 'current_substring' to store the characters of the current substring being processed.
+Step 3: Iterate through each character 'c' in the input string and perform steps 4-5.
+Step 4: If 'c' is not equal to the delimiter. Append 'c' to 'current_substring'.
+Step 5: If 'c' is equal to the delimiter then check if 'current_substring' is not empty, append it to 'result' and rReset 'current_substring' to an empty string.
+Step 6: If 'current_substring' is not empty after the loop ends, append it to 'result'.
+Step 7: Return the 'result' list.
+```
+def split_string(input_string, delimiter):
+    result = []
+    current_substring = ""
+
+    for c in input_string:
+        if c != delimiter:
+            current_substring += c
+        else:
+            if current_substring != "":
+                result.append(current_substring)
+                current_substring = ""
+
+    if current_substring != "":
+        result.append(current_substring)
+
+    return result
+```
+//124. Join a list of strings into a single string:
+Step 1: Start with an empty string called "result".
+Step 2: For each string "s" in the input list. Append "s" to the "result" string.
+Step 3: Return the "result" string
+```
+def join_strings(strings):
+    result = ""
+    for s in strings:
+        result += s
+    return result
+```
+//125. Remove duplicates from a list:
+Step 1: Define a function, let's call it "remove_duplicates", that takes a list as input.
+Step 2: Create an empty list, let's call it "result", to store the unique elements.
+Step 3: Iterate over each element in the input list. For each element:
+Step 4: Check if it already exists in the "result" list.
+Step 5: If it does not exist, append it to the "result" list.
+Step 6: Return result.
+```
+def remove_duplicates(lst):
+    result = []
+    for element in lst:
+        if element not in result:
+            result.append(element)
+    return result
+```
+//126. Check if two lists have any common elements.
+Step 1: Start by defining a function, let's call it check_common_elements, which takes two lists as input, list1 and list2.
+Step 2: Initialize an empty set, let's call it set1, and populate it with the elements from list1. This will eliminate any duplicate elements from list1 and make the lookup process more efficient.
+Step 3: Iterate through each element in list2 and perform step 4 for each element.
+Step 4: Check if the element exists in set1 using the in operator. If a common element is found, return True immediately as we have found a match.
+Step 5: After the loop, if no common elements were found, return False.
+```
+def check_common_elements(list1, list2):
+    set1 = set(list1)
+    
+    for element in list2:
+        if element in set1:
+            return True
+    
+    return False
+```
+//127. Find the index of an element in a list.
+Step 1: Define a function called find_index that takes two parameters the list to search and the element to find the index of
+Step 2: Loop through each element in lst using a for loop. If the current element is equal to element, return the index of the current element using the index() method of the list
+Step 3: If the element is not found in the list, return -1 to indicate that the element is not in the list.
+```
+def find_index(lst, element):
+    for i in range(len(lst)):
+        if lst[i] == element:
+            return i
+    return -1
+```
+//128. Add an element to the end of a list.
+Step 1: use the append() function to add the element to the end of the list. 
+```
+def add_element_to_list(lst, element):
+    lst.append(element)
+    return lst
+```
+//129. Add an element at a specific index in a list:
+Step 1: The function add_element_at_index takes three parameters the list to modify, the element to insert, and index the position where the element should be added.
+Step 2: The function first checks if the index is within the bounds of the list. If the index is negative or greater than the length of the list, an IndexError is raised.
+Step 3: To make room for the new element, a placeholder element is appended at the end of the list.
+Step 4: Starting from the last element of the list, the function iterates backwards to the specified index. Each element is shifted one position to the right, effectively making room for the new element.
+Step 5: Once the loop reaches the specified index, the new element is inserted at that position.
+Step 6: Return modified list. 
+```
+def add_element_at_index(lst, element, index):
+    if index < 0 or index > len(lst):
+        raise IndexError("Index out of range")
+    lst.append(None)  
+    for i in range(len(lst) - 1, index, -1):
+        lst[i] = lst[i - 1]
+    lst[index] = element
+
+    return lst
+```
+//130. Remove an element from a list:
+Step 1: Start with a function that takes two parameters the list and the element to be removed.
+Step 2: Iterate through the list using a loop and perform step 3-5.
+Step 3: Inside the loop, check if the current element is equal to the element to be removed.
+Step 4: If they are equal, remove the element from the list using the appropriate method or operation.
+Step 5: After removing the element, exit the loop.
+Step 6: Return the updated list
+```
+def remove_element(lst, element):
+    for i in range(len(lst)):
+        if lst[i] == element:
+            del lst[i]
+            break
+    return lst
+```
+//131. Remove the element at a specific index in a list.
+Step 1: Start by defining a function, let's call it remove_element_at_index, which takes two parameters the list and the index of the element to be removed.
+Step 2: Check if the index is valid by comparing it to the length of the list. If the index is negative or greater than or equal to the length of the list, return the original list without making any changes.
+Step 3: If the index is valid, use the pop() function to remove the element at the specified index from the list.
+Step 4: Return the modified list.
+```
+def remove_element_at_index(lst, index):
+    if index < 0 or index >= len(lst):
+        return lst
+    else:
+        lst.pop(index)
+        return lst
+```
+//132. Concatenate two lists:
+Step 1: Create a new empty list called "result".
+Step 2: Iterate over the elements in the first list.
+Step 3: For each element, append it to the "result" list.
+Step 4: Iterate over the elements in the second list.
+Step 5: For each element, append it to the "result" list.
+Step 6: Return the "result" list as the concatenated list.
+```
+def concatenate_lists(list1, list2):
+    result = []  
+    for element in list1:  
+        result.append(element)
+    for element in list2:  
+        result.append(element)
+    return result 
+```
+//133. Reverse a string
+Step 1: Start by defining a function named reverseString that takes a string as input.
+Step 2: Initialize an empty string variable called reversedString to store the reversed string.
+Step 3: Iterate over each character in the input string starting from the last character and moving towards the first character.
+Step 4: For each character, append it to the reversedString variable.
+Step 5: Return reversedString.
+```
+def reverseString(input_string):
+    reversedString = ""
+    for i in range(len(input_string) - 1, -1, -1):
+        reversedString += input_string[i]
+    return reversedString
+```
+//134. Find the longest word in a string:
+Step 1: Start by defining a function called findLongestWord that takes a string sentence as input.
+Step 2: Initialize two variables longestWord to store the longest word found so far, and maxLength to store the length of the longest word found so far. Set both variables to empty values or zero initially.
+Step 3: Split the input sentence into individual words. You can use the split() function to split the string based on whitespace characters.
+Step 4: Iterate over each word in the list of words.
+Step 5: For each word, compare its length with the current maxLength.
+Step 6: If the length of the word is greater than maxLength, update longestWord with the current word and maxLength with the length of the current word.
+Step 7: After iterating through all the words, longestWord will contain the longest word found in the sentence.
+Step 8: Return longestWord.
+```
+def find_longest_word(sentence):
+    longest_word = ""
+    max_length = 0
+    words = sentence.split()
+
+    for word in words:
+        if len(word) > max_length:
+            longest_word = word
+            max_length = len(word)
+
+    return longest_word
+```
+//135. Check if a string contains only digits.
+Step 1: Start by defining a function, let's call it containsOnlyDigits, that takes a string as input.
+Step 2: Initialize a variable, let's call it onlyDigits, to True. This variable will be used to keep track of whether the string contains only digits.
+Iterate through each character in the string.
+Step 3: For each character, check if it is a digit using the isdigit() method available in most programming languages. If the character is not a digit, set onlyDigits to False and break out of the loop.
+Step 4: After the loop, check the value of onlyDigits.
+Step 5: If onlyDigits is True, return True to indicate that the string contains only digits.
+Step 6: If onlyDigits is False, return False to indicate that the string contains characters other than digits.
+```
+def containsOnlyDigits(string):
+    onlyDigits = True
+    for char in string:
+        if not char.isdigit():
+            onlyDigits = False
+            break
+    return onlyDigits
+```
+//136. Check if a string contains only letters:
+Step 1: Create a function named is_letters_only that takes a single parameter input_string.
+Step 2: Initialize a variable named is_only_letters to True.
+Step 3: Loop through each character in the input string.
+Step 4: For each character, use the isalpha() method to check if it is a letter. If the character is not a letter, set is_only_letters to False and break out of the loop.
+Step 5: After the loop, return the value of is_only_letters. 
+```
+def is_letters_only(input_string):
+    is_only_letters = True
+    for char in input_string:
+        if not char.isalpha():
+            is_only_letters = False
+            break
+    return is_only_letters
+```
+//137. Check if a string contains only whitespace.
+Step 1: Start by defining a function named containsOnlyWhitespace that takes a string text as input.
+Step 2: Initialize a variable isWhitespace as True. This variable will keep track of whether the string contains only whitespace characters.
+Step 3: Iterate over each character char in the input string text.
+Step 4: For each character char, check if it is a whitespace character. You can use the isspace() method available for strings to perform this check. If char is not a whitespace character, set isWhitespace to False and break out of the loop.
+Step 5: After the loop ends, if isWhitespace is still True, it means that all characters in the string were whitespace characters. In this case, return True to indicate that the string contains only whitespace. Otherwise, return False to indicate that the string contains non-whitespace characters.
+```
+def containsOnlyWhitespace(text):
+    isWhitespace = True
+    for char in text:
+        if not char.isspace():
+            isWhitespace = False
+            break
+    return isWhitespace
+```
+//138. Find the ASCII value of a character.
+Step 1: Start by defining a function called findAsciiValue that takes a single parameter, character.
+Step 2: Inside the function, convert the character to its corresponding ASCII value by using the ord() function.
+Step 3: Return the ASCII value as the result.
+```
+def findAsciiValue(character):
+    ascii_value = ord(character)
+    return ascii_value
+```
+//139. Find the character with a specific ASCII value:
+Step 1: Define a function called findCharacter that takes an ASCII value as input.
+Step 2: Inside the function, check if the ASCII value is within the valid range of 0 to 127.
+Step 3: If the ASCII value is outside the valid range, return an error message or an appropriate value indicating an invalid input.
+Step 4: If the ASCII value is valid, convert it to a character using the appropriate conversion function or method available in your programming language.
+Step 5: Return the character.
+```
+def findCharacter(ascii_value):
+    if ascii_value < 0 or ascii_value > 127:
+        return "Invalid ASCII value"
+    else:
+        character = chr(ascii_value)
+        return character
+```
+//140. Calculate the sum of the digits of a number:
+Step 1: Define a function called calculateDigitSum that takes a number num as input.
+Step 2: Initialize a variable sum to 0.
+Step 3: Convert the number num to a string to allow iterating over its digits.
+Step 4: Iterate over each character digit in the string representation of num.
+Step 5: Convert digit back to an integer using the int() function.
+Step 6: Add the integer value of digit to the variable sum.
+Step 7: After iterating through all the digits, return the value of sum.
+```
+def calculateDigitSum(num):
+    sum = 0
+    num_str = str(num)
+    
+    for digit in num_str:
+        sum += int(digit)
+    
+    return sum
+```
+//141. Find the largest of three numbers.
+Step 1: Start with three input numbers: num1, num2, and num3.
+Step 2: Compare num1 and num2. If num1 is greater than num2, assign the value of num1 to a variable called largest. Otherwise, assign the value of num2 to largest.
+Step 3: Compare largest with num3:
+Step 4: If largest is greater than num3, largest remains unchanged.
+Step 5: Otherwise, assign the value of num3 to largest.
+Step 6: Return the value of largest as the result.
+```
+def find_largest(num1, num2, num3):
+    if num1 > num2:
+        largest = num1
+    else:
+        largest = num2
+
+    if largest < num3:
+        largest = num3
+
+    return largest
+```
+//142. Find the smallest of three numbers.
+Step 1: Start the function FindSmallest with three input parameters: num1, num2, and num3.
+Step 2: Compare num1 with num2. If num1 is less than num2, go to step 3. Otherwise, go to step 4.
+Step 3: Compare num1 with num3. If num1 is less than num3, return num1 as the smallest number. Otherwise, return num3 as the smallest number.
+Step 4: Compare num2 with num3. If num2 is less than num3, return num2 as the smallest number. Otherwise, return num3 as the smallest number.
+```
+def FindSmallest(num1, num2, num3):
+    if num1 < num2:
+        if num1 < num3:
+            return num1
+        else:
+            return num3
+    else:
+        if num2 < num3:
+            return num2
+        else:
+            return num3
+```
+//143. Calculate the absolute value of a number.
+Step 1: Take user input and store in n.
+Step 2: Use abs() function.
+```
+n = int(input("Enter number: "))
+abs(n)
+```
+//144. Round a number to a specified number of decimal places:
+Step 1: Import the math module.
+Step 2: Define a function round_number that takes two parameters number to be rounded and decimal_places, the desired number of decimal places.
+Step 3: Calculate the factor by raising 10 to the power of decimal_places.
+Step 4: Multiply number by the factor and add 0.5.
+Step 5: Use the floor function from the math module to round the result down to the nearest integer.
+Step 6: Divide the rounded result by the factor.
+Step 7: Return the rounded number.
+```
+import math
+
+def round_number(number, decimal_places):
+    factor = 10 ** decimal_places
+    rounded_number = math.floor(number * factor + 0.5) / factor
+    return rounded_number
+```
+//145. Convert a string to an integer.
+Step 1: Initialize a variable named "result" to 0.
+Step 2: Initialize a variable named "sign" to 1. This variable will be used to handle negative numbers.
+Step 3: Trim any leading and trailing whitespace characters from the input string.
+Step 4: If the first character of the string is '-', set "sign" to -1 and remove the '-' character from the string.
+Step 5: If the first character of the string is '+', remove the '+' character from the string.
+Step 6: Iterate over each character, "ch", in the string from left to right. If "ch" is not a digit (0-9), break out of the loop. Otherwise, convert "ch" to its corresponding integer value using the ASCII table. The integer value of "ch" can be obtained by subtracting the ASCII value of '0' from the ASCII value of "ch".
+Step 7: Multiply "result" by 10 and add the integer value of "ch" to it.
+Step 8: Multiply "result" by "sign" to handle negative numbers if necessary.
+Step 9: Return the final value of "result" as the converted integer.
+```
+def string_to_integer(s):
+    result = 0
+    sign = 1
+    s = s.strip()
+
+    if s[0] == '-':
+        sign = -1
+        s = s[1:]
+    elif s[0] == '+':
+        s = s[1:]
+
+    for ch in s:
+        if not ch.isdigit():
+            break
+        result = result * 10 + (ord(ch) - ord('0'))
+
+    return result * sign
+```
+//146. Convert an integer to a string.
+Step 1: Take user input and store in n.
+Step 2: Use str() function.
+```
+n = int(input("Enter number: "))
+str(n)
+```
+//147. Check if a list is empty:
+Step 1: Check the length of the list. If the length of the list is 0, go to step 2. If the length of the list is greater than 0, go to step 3.
+Step 2: Output "The list is empty."
+Step 3: Output "The list is not empty."
+```
+def is_list_empty(lst):
+    if len(lst) == 0:
+        return True
+    else:
+        return False
+```
+//148. Check if a value is in a list.
+Step 1: Start with a function called isValueInList that takes two parameters the value to check and myList the list to search in.
+Step 2: Use the in operator to check if the value is present in myList.
+Step 3: If the value is found, the in operator will return True, indicating that the value is in the list.
+Step 4: If the value is not found, the in operator will return False, indicating that the value is not in the list.
+Step 5: Return the result of the in operator comparison.
+```
+def is_value_in_list(value, my_list):
+    return value in my_list
+```
+//149. Find the number of elements in a list.
+Step 1: Start by defining a function called count_elements that takes a list as input.
+Step 2: Initialize a variable count to 0. This variable will be used to keep track of the number of elements.
+Step 3: Iterate over each element in the list. For each element, increment the count variable by 1.
+Step 4: return count;
+```
+def count_elements(lst):
+    count = 0
+    for _ in lst:
+        count += 1
+    return count
+```
+//150. Find the standard deviation of the elements in a list
+Step 1: Import the math module.
+Step 2: Start by defining a function called count_elements that takes a list as input.
+Step 3: Calculate the mean.
+Step 4: Calculate the squared differences from the mean.
+Step 5: Calculate the variance.
+Step 6: Calculate the standard_deviation
+Step 7: Return standard_deviation.
+```
+import math
+def calculate_standard_deviation(lst):
+    mean = sum(lst) / len(lst)
+    squared_diffs = [(x - mean) ** 2 for x in lst]
+    variance = sum(squared_diffs) / len(lst)
+    standard_deviation = math.sqrt(variance)
+    return standard_deviation
+```
+//151. Find the range of the elements in a list:
+Step 1: Define a function called find_range that takes parameter list.
+Step 2: Let min_val and max_val be the first element of the list.
+Step 3: For each element in the list, perform Steps 3-4.
+Step 4: If the element is less than min_val, update min_val to the element.
+Step 5: If the element is greater than max_val, update max_val to the element.
+Step 6: Calculate the range as max_val - min_val.
+Step 7: Return the range.
+```
+def find_range(lst):
+    min_val = lst[0]
+    max_val = lst[0]
+    for num in lst:
+        if num < min_val:
+            min_val = num
+        if num > max_val:
+            max_val = num
+    range_val = max_val - min_val
+    return range_val
+```
+//152. Count the number of words in a string.
+Step 1: Define a function called count_words that takes parameter string.
+Step 2: Start with a variable count initialized to 0.
+Step 3: Initialize a boolean variable inside_word as False.
+Step 4: Iterate over each character in the string and perform steps 5-6.
+Step 5: If the character is a letter or digit, set inside_word to True.
+Step 6: If the character is not a letter or digit and inside_word is True, increment count by 1 and set inside_word to False.
+Step 7: If inside_word is True at the end of the iteration, increment count by 1.
+Step 8: Return count.
+```
+def count_words(string):
+    count = 0
+    inside_word = False
+    for char in string:
+        if char.isalnum():
+            inside_word = True
+        elif inside_word:
+            count += 1
+            inside_word = False
+    if inside_word:
+        count += 1
+    return count
+```
+//153. Sort a list of strings by length:
+Step 1: Start with an input list of strings.
+Step 2: Create a new list to store the sorted strings.
+Step 3: Iterate over each string in the input list.
+Step 4: Calculate the length of each string.
+Step 5: Insert the current string into the sorted list at the appropriate position based on its length.
+Step 6: Continue this process until all strings from the input list have been processed.
+Step 7: Return the sorted list.
+```
+def sort_strings_by_length(string_list):
+    sorted_list = []
+    for string in string_list:
+        string_length = len(string)
+        inserted = False
+        for i in range(len(sorted_list)):
+            if len(sorted_list[i]) > string_length:
+                sorted_list.insert(i, string)
+                inserted = True
+                break
+        if not inserted:
+            sorted_list.append(string)
+    return sorted_list
+```
+//154. Sort a list of tuples by the second element.
+Step 1: Define a comparison function that compares the second element of two tuples.
+Step 2: Use the comparison function to sort the list of tuples.
+```
+def sort_list_by_second_element(lst):
+    def compare_second_element(tuple):
+        return tuple[1]
+    sorted_lst = sorted(lst, key=compare_second_element)
+    return sorted_lst
+```
+//155. Find the most common element in a list.
+Step 1: Initialize an empty dictionary to keep track of the count of each element in the list.
+Step 2: Iterate through each element in the list.
+Step 3: If the element is already in the dictionary, increment its count by 1.
+Step 4: If the element is not in the dictionary, add it as a new key with a count of 1.
+Step 5: Initialize variables max_count and most_common to track the maximum count and the most common element.
+Step 6: Iterate through the key-value pairs in the dictionary.
+Step 7: If the count of the current element is greater than max_count, update max_count and most_common to the current element.
+Step 8: Return the most_common element.
+```
+def find_most_common(lst):
+    count_dict = {}  
+    for element in lst:
+        if element in count_dict:
+            count_dict[element] += 1
+        else:
+            count_dict[element] = 1
+    max_count = 0
+    most_common = None
+    for element, count in count_dict.items():
+        if count > max_count:
+            max_count = count
+            most_common = element
+    return most_common  
+```
+//156. Rotate a list to the right. 
+Step 1: Calculate the effective rotation index.
+Step 2: Reverse the entire list.
+Step 3: Reverse the first part of the list up to rotation index.
+Step 4: Reverse the remaining part of the list from rotation index onwards.
+```
+rotate_right(lst, k):
+    rotation_index = k % len(lst)
+    reverse(lst, 0, len(lst) - 1)
+    reverse(lst, 0, rotation_index - 1)
+    reverse(lst, rotation_index, len(lst) - 1)
+```
+//157. Rotate a list to the left.
+Step 1: Define a function called rotate_left that takes two parameter list and position.
+Step 2: Accept the input list and the number of positions to rotate as parameters.
+Step 3: Take the modulo of the number of positions with the length of the list
+Step 4: Create a new list to store the rotated elements.
+Step 5: Iterate from the number of positions to the length of the list.
+Step 6: Append each element from the original list to the new list.
+Step 7:  Iterate from the beginning of the original list to the number of positions.
+Step 8: Append each element from the original list to the new list.
+Step 9: Return the new list as the rotated list.
+```
+def rotate_left(lst, positions):
+    positions = positions % len(lst)
+    rotated_list = []
+    for i in range(positions, len(lst)):
+        rotated_list.append(lst[i])
+    for i in range(positions):
+        rotated_list.append(lst[i])
+    return rotated_list
+```
+//158. Reverse a list:
+Step 1: Initialize two pointers, one at the beginning of the list say start and one at the end of the list say end.
+Step 2: Swap the elements at start and end.
+Step 3: Move start one position forward and end one position backward.
+Step 4: Repeat steps 2 and 3 until start becomes greater than or equal to end.
+Step 5: return list.
+```
+def reverse_list(lst):
+    start = 0
+    end = len(lst) - 1
+    while start < end:
+        lst[start], lst[end] = lst[end], lst[start]
+        start += 1
+        end -= 1
+    return lst
+```
+//159. Merge two sorted lists.
+Step 1: Create an empty list to store the merged result.
+Step 2: Initialize two pointers, one for each input list, pointing to the first element of each list.
+Step 3: Compare the elements at the current positions of the two pointers.
+Step 4: Append the smaller element to the merged list.
+Step 5: Move the pointer of the list from which the element was appended to the next position.
+Step 6: Repeat steps 3-5 until you reach the end of either of the input lists.
+Step 7: Once you reach the end of one list, append all the remaining elements from the other list to the merged list since they are already sorted.
+Step 8: The merged list contains all the elements from both lists in sorted order.
+```
+def merge_sorted_lists(list1, list2):
+    merged = []
+    pointer1 = 0
+    pointer2 = 0
+    while pointer1 < len(list1) and pointer2 < len(list2):
+        if list1[pointer1] <= list2[pointer2]:
+            merged.append(list1[pointer1])
+            pointer1 += 1
+        else:
+            merged.append(list2[pointer2])
+            pointer2 += 1
+    while pointer1 < len(list1):
+        merged.append(list1[pointer1])
+        pointer1 += 1
+    while pointer2 < len(list2):
+        merged.append(list2[pointer2])
+        pointer2 += 1
+    return merged
+```
+//160. Find the factorial of a number.
+Step 1: Start with a variable factorial and set it to 1.
+Step 2: Read the input number and store it in a variable n.
+Step 3: Set up a loop that iterates from n to 1 (inclusive). Let's call the loop variable i.
+Step 4: Inside the loop, multiply factorial by i and store the result back in factorial.
+Step 5: After the loop finishes, the variable factorial will contain the factorial of the input number n.
+Step 6: Output the value of factorial as the factorial of the input number.
+```
+factorial = 1
+n = int(input("Enter a number: "))
+for i in range(n, 1, -1):
+    factorial *= i
+print("Factorial of", n, "is", factorial)
+```
+//161. Find the greatest common divisor of two numbers.
+Step 1: Start with two positive integers, let's call them 'a' and 'b', where 'a' is greater than or equal to 'b'.
+Step 2: Divide 'a' by 'b' and obtain the remainder. Let's call this remainder 'r'.
+Step 3: If 'r' is equal to 0, then 'b' is the GCD of the original two numbers, and you can stop the algorithm.
+Step 4: If 'r' is not equal to 0, set 'a' to 'b' and 'b' to 'r', then go back to step 2.
+Step 5: Repeat steps 2-4 until 'r' becomes 0.
+Step 6: When 'r' becomes 0, the value of 'b' is the GCD of the original two numbers.
+```
+def gcd(a, b):
+    while b != 0:
+        r = a % b
+        a = b
+        b = r
+    return a
+```
+//162. Find the prime factors of a number.
+Step 1: Start with an empty list to store the prime factors.
+Step 2: Initialize a variable, let's call it "n," with the given number.
+Step 3: Start with the smallest prime number, which is 2.
+Step 4: While n is divisible by 2, divide n by 2 and add 2 to the list of prime factors.
+Step 5: Increment the divisor by 1 to check the next prime number.
+Step 6: Repeat steps 4 and 5 until the divisor becomes larger than the square root of n.
+Step 7: If n is divisible by the current divisor, divide n by the divisor and add the divisor to the list of prime factors.
+Step 8: Otherwise, increment the divisor by 2 (to skip even numbers) and continue.
+Step 9: If n is greater than 1 after the loop ends, it is a prime number itself, so add n to the list of prime factors.
+Step 10: The list of prime factors now contains all the prime factors of the given number.
+```
+import math
+def find_prime_factors(n):
+    factors = []
+    while n % 2 == 0:
+        factors.append(2)
+        n //= 2
+    divisor = 3
+    sqrt_n = math.isqrt(n) + 1
+    while divisor <= sqrt_n:
+        if n % divisor == 0:
+            factors.append(divisor)
+            n //= divisor
+            sqrt_n = math.isqrt(n) + 1
+        else:
+            divisor += 2
+    if n > 1:
+        factors.append(n)
+    return factors
+```
+// 163. Check if a number is a palindrome.
+Step 1: Convert the number to a string.
+Step 2: Initialize two pointers, one at the beginning of the string (let's call it left) and one at the end (let's call it right).
+Step 3: Iterate while left is less than or equal to right:
+Step 4: Compare the characters at positions left and right.
+Step 5: If they are not equal, the number is not a palindrome. Return false.
+Step 6: If they are equal, move left one position to the right and right one position to the left.
+Step 7: If the loop completes without finding any unequal characters, the number is a palindrome.
+Step 8: Return true.
+```
+def is_palindrome(number):
+    number_str = str(number)
+    left = 0
+    right = len(number_str) - 1
+    while left <= right:
+        if number_str[left] != number_str[right]:
+            return False
+        left += 1
+        right -= 1
+    return True
+```
+//164. Convert a decimal number to binary.
+Step 1: Make a function decimal_to_binary that takes string as parameter.
+Step 2: Accept the decimal number as input.
+Step 3: Use the bin() function to convert the decimal number to binary. This function returns a string representation of the binary number with a prefix of '0b'.
+Step 4: Remove the prefix '0b' from the binary string by slicing it from the third character onwards ([2:]).
+Step 5: Return The resulting string is the binary representation of the decimal number.
+```
+def decimal_to_binary(decimal):
+    binary = bin(decimal)[2:] 
+    return binary
+```
+//165. Find the square root of a number.
+Step 1: Import the math module.
+Step 2: Define a function find_square_root that takes a number as input.
+Step 3: Inside the function, use math.sqrt() to calculate the square root of the input number.
+Step 4: Return the square root.
+```
+import math
+def find_square_root(number):
+    square_root = math.sqrt(number)
+    return square_root
+```
+//166. Find the cube root of a number
+Step 1: Start by prompting the user to enter a number.
+Step 2: Read and store the input number.
+Step 3: Calculate the cube root of the number by raising it to the power of 1/3.
+Step 4: Store the result in a variable.
+Step 5: Print the cube root of the number.
+```
+number = float(input("Enter a number: "))
+cube_root = number ** (1/3)
+print("Cube root:", cube_root)
+```
+//167. Round a number to a certain number of decimal places.
+Step 1: Start by defining a function, let's call it round_to_decimal_places, that takes two parameters the number to be rounded and decimal_places the desired number of decimal places to round to.
+Step 2: Inside the function, use the round() function to round the number to the specified decimal_places. This function takes two arguments: the number to be rounded and the number of decimal_places to round to.
+Step 3: Assign the rounded number to a variable, let's call it rounded_number.
+Step 4: Return the rounded_number.
+```
+def round_to_decimal_places(number, decimal_places):
+    rounded_number = round(number, decimal_places)
+    return rounded_number
+```
+//168. Generate a random number.
+Step 1: Import the random module.
+Step 2: Take start and end value for range.
+Step 2: Call the randint().
+Step 3: Assign value of function random.randint(start,end) to some variable and that is our answer. 
+```
+import random
+random_number = random.randint(start, end)
+```
